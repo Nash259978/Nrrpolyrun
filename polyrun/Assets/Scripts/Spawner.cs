@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
         InvokeRepeating("InstantiateObjects", spawnDelay, spawnTime);
     }
 
-    void InstantiateObject()
+    void InstantiateObjects()
     {
         Instantiate(challengeObject, transform.position, transform.rotation);
     }
