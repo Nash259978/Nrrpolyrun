@@ -487,6 +487,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6185358136303196268, guid: 32099380f5be4314eaafd9392860df90, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6185358137844180416, guid: 32099380f5be4314eaafd9392860df90, type: 3}
       propertyPath: m_Name
       value: MainGameCanvas
